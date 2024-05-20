@@ -2,10 +2,7 @@ package main.java.uz.pdp.lesson2;
 
 import main.java.uz.pdp.lesson2.Person;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -25,7 +22,5 @@ public class Main {
                 .forEach((key, value) -> {
                     System.out.println(key + ": " + value);
                 });
-
-
     }
 }

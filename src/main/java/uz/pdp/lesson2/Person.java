@@ -1,5 +1,7 @@
 package main.java.uz.pdp.lesson2;
 
+import java.util.Objects;
+
 public class Person {
     public String name;
     public int age;
@@ -23,4 +25,13 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
 }
