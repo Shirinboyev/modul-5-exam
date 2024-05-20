@@ -1,4 +1,3 @@
-
 1 - Functional Interface bu faqat 1 ta abstract methodi bor interface functional interface deyiladi
 Qaysi interfacelarni bilasiz:
 
@@ -10,6 +9,7 @@ Qaysi interfacelarni bilasiz:
  BinaryOperator
  BiInteger
  BiConsumer
+ BiFunction
 
  2 - Intermefiate operatsiyalar va terminal aperstsialar o'rtasidagi farq nima ?
 
@@ -43,9 +43,16 @@ Intermedite oraliq misollar :
 
  3 - java 8 dan boshlab , Javaga qanday muhim yangiliklar kiritildi ?
 
+ java.util.Base64 classi qo'shildi, bu Base64 kodlash va dekodlashni osonlashtiradi.
+
  Lambda expressionlar :
+ Anonim funksiyalarni yozishga imkon beradi va kodni qisqa va aniqroq qiladi.
+ qo'shimcha classlar yaratishni oldini oladi
+
 
  Functional interfacelar :
+ Bitta abstrakt metodi bor interfeyslar. java.util.function paketida bir qancha foydali
+ funksional interfeyslar mavjud (Predicate, Function, Supplier, Consumer va vahokazo).
 
  Date and Time API (java.time)
  Klasslar: LocalDate, LocalTime, LocalDateTime, ZonedDateTime, Period
