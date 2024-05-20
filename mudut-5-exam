@@ -1,0 +1,52 @@
+
+1 - Functional Interface bu faqat 1 ta abstract methodi bor interface functional interface deyiladi
+Qaysi interfacelarni bilasiz:
+
+ Predicate
+ Consumer
+ Function
+ Supplier
+ UnaryOperator
+ BinaryOperator
+ BiInteger
+ BiConsumer
+
+ 2 - Intermefiate operatsiyalar va terminal aperstsialar o'rtasidagi farq nima ?
+
+Intermedite oraliq misollar :
+
+ Stream'ni o'zgartiradi yoki filtrlaydi, lekin ma'lumotlarni o'zgartirmaydi.
+ (Lazy Evaluation): Haqiqiy hisob-kitob amalga oshirilmaydi,
+ faqat terminal operatsiya chaqirilganida ishlatiladi.
+
+ Intermedite misollar :
+
+    filter()
+    map()
+    flatMap()
+    sorted()
+    distinct()
+
+    Terminated yakuniy Misollar:
+ Natija Qaytaradi: Stream'dan qaytarilgan natijani olish uchun ishlatiladi.
+ (Eager Evaluation): Barcha hisob-kitoblar shu yerda amalga oshiriladi.
+ Stream'ni Yopadi: Terminal operatsiya chaqirilgandan so'ng, stream endi foydalanishga yaroqsiz bo'ladi.
+
+ Misollar :
+
+ forEach()
+ collect()
+ reduce()
+ count()
+ findFirst()
+ anyMatch()
+
+ 3 - java 8 dan boshlab , Javaga qanday muhim yangiliklar kiritildi ?
+
+ Lambda expressionlar :
+
+ Functional interfacelar :
+
+ Date and Time API (java.time)
+ Klasslar: LocalDate, LocalTime, LocalDateTime, ZonedDateTime, Period
+
